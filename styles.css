@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.google.com/share?selection.family=Lato');
 
 d* {
     outline: 1px dotted lime;
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: black;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',
 }
 
 .header {
-    background-color: #661a72;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
     height: 90px;
-    border-bottom: 6px solid #763789;
+    border-bottom: 6px solid #971313;
 }
 
 .nav {
@@ -38,7 +39,7 @@ body {
 }
 
 .links a {
-    color: white;
+    color: rgb(255, 255, 255);
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
@@ -63,8 +64,8 @@ body {
 /* our services section */
 
 #services_container {
-    background-color: #F2F2F2;
-    color: #666D89;
+    background-color: #000000;
+    color: red;
     font-size: 1.1em;
     line-height: 2em;
     margin: auto;
@@ -107,8 +108,8 @@ body {
 #portfolio {
     color: #ffffff;
     background-color: #000000;
-    border-bottom: 6px solid #323746;
-    border-top: 6px solid #FFF;
+    border-bottom: 6px solid #ff0000;
+    border-top: 6px solid #ff0000;
     font-size: 1.1em;
     line-height: 2em;
     padding: 40px 20px;
@@ -140,9 +141,9 @@ body {
 /* about us section */
 
 #about {
-    background-color: #F2F2F2;
-    border-bottom: 6px solid #FFF;
-    color: #666D89;
+    background-color: black;
+    border-bottom: 6px solid black;
+    color: red;
     font-size: 1.1em;
     line-height: 2em;
     padding: 40px 20px;
@@ -178,8 +179,8 @@ body {
 /* get a quote section */
 
 #quote {
-    background-color: #ac64f0;
-    border-bottom: 6px solid #d267ea;
+    background-color: #eb2e2e;
+    border-bottom: 6px solid #e81c1c;
     color: #F0D8D9;
     font-size: 1.1em;
     line-height: 2em;
@@ -210,10 +211,10 @@ body {
 
 #quote input,
 #quote textarea {
-    background-color: #a74fd6;
+    background-color: #d62222;
     border: none;
     border-radius: 6px;
-    color: #c97eec;
+    color: #e64343;
     font-size: 0.7em;
     margin: 0.7em 0;
     padding: 1em;
